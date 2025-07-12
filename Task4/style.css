@@ -1,0 +1,33 @@
+a {
+    color: rgb(193, 2, 2);
+    text-decoration: none; /* searched it , removes the line under the link*/
+    margin-right: 25px;    /* searched it , makes spaces between links */
+}
+
+#header1,#header2 {
+    color: rgb(193, 2, 2);
+}
+
+body {
+    background-color: rgb(203, 197, 170);
+}
+
+fieldset {
+    border-color: black;
+}
+
+.field1 , #field11 {
+    background-color:rgb(237, 230, 211);
+}
+
+.submit, .reset  {
+    background-color: rgba(217, 213, 221, 0.726);
+}
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='./css/style.css'>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="bar">
+          <span class="span1">SkyWay</span>
+          <span class="span2">
+            <a href="#trips-bar">🏠Home</a>
+            <a href="#begin">🧳Trips</a>
+            <a href="#call">📞Contact Us</a>
+          </span>
+          <a href="#booking">🏖️ Book now!</a>
+        </nav>
+      </header>
+      <br>
+      <section id="trips-bar">
+        <h1>Welcome to SkyWay travels company website !</h1>
+        <br>
+        <p>SkyWay Travel is your trusted companion for exploring Egypt's most stunning coastal destinations. Whether you're diving in the clear blue waters of Dahab, <br> relaxing on the sandy beaches of Sharm El-Sheikh, enjoying the vibrant life of Hurghada, or escaping to the calm beauty of Marsa Matrouh — we've got you covered. <br> Our tailored travel packages offer comfort, excitement, and unforgettable memories. With SkyWay, your dream vacation is just a booking away. </p>
+        <br>
+        <br>
+        <h3>Here are our trips for this month, let's have a look ! <br> I hope it gets your admire! </h3>
+        <br>
+        <br>
+        <div id="begin">
+          <span class="test"> Sharm El-Sheikh.. <br>5000 pounds a person. <br>Book Now by clicking on the photo !! </span>
+          <span>
+            <a href="#booking">
+              <img src="./images/sharm.jpg">
+            </a>
+          </span>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+          <span class="test"> Hurghada.. <br> 4000 pounds a person. <br> Book Now by clicking on the photo !! </span>
+          <span>
+            <a href="#booking">
+              <img src="./images/hurghada.jpg">
+            </a>
+          </span>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+          <span class="test"> Dahab.. <br> 6000 pounds a person. <br> Book Now by clicking on the photo !! </span>
+          <span>
+            <a href="#booking">
+              <img src="./images/dahab.jpeg">
+            </a>
+          </span>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+          <span class="test"> Matrouh.. <br> 9000 pounds a person. <br>Book Now by clicking on the photo !! </span>
+          <span>
+            <a href="#booking">
+              <img src="./images/matrouh.jpeg">
+            </a>
+          </span>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="contain">
+        <form id="booking">
+          <h2>Book by filling this form</h2>
+          <label for="name">Name</label>
+          <br>
+          <input type="text" name="user-name" id="name">
+          <br>
+          <br>
+          <label for="email">Email</label>
+          <br>
+          <input type="email" name="user-mail" id="email">
+          <br>
+          <br>
+          <label for="number">Phone</label>
+          <br>
+          <input type="text" name="user-num" id="number">
+          <br>
+          <br>
+          <label id="per-num">Number of individuals</label>
+          <br>
+          <input type="number" name="persons-number" id="per-num">
+          <br>
+          <br>
+          <label id="des">Trip destination</label>
+          <br>
+          <select name="selection" id="des">
+            <option>Sharm El-Sheikh</option>
+            <option>Hurghada</option>
+            <option>Dahab</option>
+            <option>Matrouh</option>
+          </select>
+          <br>
+          <br>
+          <label id="method">Travel method</label>
+          <br>
+          <select name="choose" id="method">
+            <option>Car</option>
+            <option>Plane</option>
+          </select>
+          <br>
+          <br>
+          <button name="submit" class="sub">Submit</button>
+        </form>
+      </div>
+      <br>
+      <br>
+      <footer>
+        <span>Have a nice trip !</span>
+        <span>© 2025 SkyWay Travel. All rights reserved.</span>
+        <span id="call">Contact us: 01 234789455</span>
+      </footer>
+    </div>
+  </body>
+</html>
